@@ -8,7 +8,11 @@ Endpoint disponível em: https://orderaccumulator.onrender.com/api/orderaccumula
 - Única camada, por se tratar de uma API com um único método;
 - Utilização de uma sessão crítica para cada Asset, com o objetivo de controlar a concorrência
 
-### Exemplo de requisição: 
+## Execução:
+
+Clonar o projeto e buildar, após isso, realizar uma requisição via swagger ou via postman.
+
+### Exemplo de requisição (POST) no endpoint /api/orderaccumulator/new-order: 
 
 ```
     {
