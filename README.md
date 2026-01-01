@@ -4,8 +4,7 @@ Serviço para processamento de ordens, simulando uma exposição máxima (absolu
 
 Endpoint disponível em: https://orderaccumulator.onrender.com/api/orderaccumulator/new-order
 
-- Sem utilização de métodos assincronos;
-- Única camada, por se tratar de uma API com um único método;
+- Única camada, por se tratar de uma API com um único endpoint;
 - Utilização de uma sessão crítica para cada Asset, com o objetivo de controlar a concorrência
 
 ## Execução:
