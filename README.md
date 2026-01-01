@@ -2,6 +2,8 @@
 
 Serviço para processamento de ordens, simulando uma exposição máxima (absoluta) de R$ 1.000.000,00 por ativo.
 
+Endpoint disponível em: https://orderaccumulator.onrender.com/api/orderaccumulator/new-order
+
 - Sem utilização de métodos assincronos;
 - Única camada, por se tratar de uma API com um único método;
 - Utilização de uma sessão crítica para cada Asset, com o objetivo de controlar a concorrência
